@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My ePortfolio</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        line-height: 1.6;
+        background: #f4f6f9;
+        color: #333;
+    }
+
+    header {
+        background: linear-gradient(135deg, #0f172a, #2563eb);
+        color: white;
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        font-size: 1.1rem;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    nav {
+        background: #111827;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+
+    nav li {
+        margin: 0 15px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        color: #60a5fa;
+    }
+
+    section {
+        max-width: 1100px;
+        margin: auto;
+        padding: 60px 20px;
+    }
+
+    h2 {
+        color: #1e3a8a;
+        margin-bottom: 20px;
+        border-bottom: 3px solid #2563eb;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+    .card {
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        margin-top: 20px;
+        box-shadow: 0px 4px 12px rgba(0,0,0,.08);
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        gap: 20px;
+    }
+
+    .profile-img {
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 20px auto;
+        display: block;
+        border: 5px solid white;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
+    footer {
+        background: #111827;
+        color: white;
+        text-align: center;
+        padding: 30px;
+        margin-top: 40px;
+    }
+
+    .quote {
+        font-style: italic;
+        margin-top: 15px;
+        color: #dbeafe;
+    }
+
+    .highlight {
+        color: #2563eb;
+        font-weight: bold;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Charles J. Hitzel</h1>
+
+    <!-- Replace with your photo -->
+    <img src="charles-hitzel.jpg" alt="Profile Picture" class="profile-img">
+
+    <p>
+        Welcome to my ePortfolio! This website highlights my identity,
+        experiences, values, and future goals.
+    </p>
+
+    <p class="quote">
+        "How you do anything is how you do everything."
+        – Mark Cuban
+    </p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#career">Career Goals</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+
+    <div class="card">
+        <h3>Welcome</h3>
+
+        <p>
+            Hello! My name is <span class="highlight">Charlie Hitzel</span>.
+            I am a student majoring in
+            <span class="highlight">Finance</span>.
+            This ePortfolio serves as an introduction to who I am, my personal
+            journey, and the goals I hope to achieve in the future.
+        </p>
+
+        <br>
+
+        <h3>Quick Facts</h3>
+
+        <ul>
+            <li>Major: Finance</li>
+            <li>School: University of Alabama</li>
+            <li>Graduation Year: 2030</li>
+            <li>Career Interest: Finance</li>
+            <li>Location: Tuscaloosa, Alabama</li>
+        </ul>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Introduction</h3>
+            <p>
+                My name is Charlie Hitzel, and I am currently studying
+                Finance at The University of Alabama. I am passionate about
+                learning, personal growth, and achieving goals that
+                positively impact my future and the people around me.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Personal Narrative</h3>
+            <p>
+                One experience that significantly shaped my identity was
+                When I was 7 years old I was cut from a baseball team. It was the first time I wasn't given something. I then worked really hard the next off season to get ready. I practiced hitting and fielding with my dad until I was ready for the next years tryout. I made the team, and that day I realized nothing was to be given to me but also that hard work can get you anything..
+                </p>
+        </div>
+
+        <div class="card">
+            <h3>Interests & Passions</h3>
+            <ul>
+                <li>Fitness & Exercise</li>
+                <li>Reading</li>
+                <li>Baseball</li>
+                <li>Football</li>
+                <li>Playing Golf</li>
+                <li>Going to Church</li>
+            </ul>
+
+            <p style="margin-top:10px;">
+                These activities help me continue developing as a student
+                and individual while maintaining a healthy work-life balance. They allow me to develop intellectually, socially, physically, and spiritually.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Values & Beliefs</h3>
+
+            <ul>
+                <li>Integrity</li>
+                <li>Respect</li>
+                <li>Ambition</li>
+                <li>Religion</li>
+                <li>Determination</li>
+            </ul>
+
+            <p style="margin-top:10px;">
+                These values guide my decisions, relationships, and
+                approach to opportunities and challenges.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Strengths</h3>
+
+            <ul>
+                <li>Strong Work Ethic</li>
+                <li>Adaptability</li>
+                <li>Communication Skills</li>
+                <li>Problem Solving</li>
+                <li>Dependability</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Areas for Growth</h3>
+
+            <ul>
+                <li>Public Speaking</li>
+                <li>Leadership Development</li>
+                <li>Time Management</li>
+            </ul>
+
+            <p style="margin-top:10px;">
+                I plan to strengthen these areas by seeking leadership
+                opportunities, participating in group projects,
+                and continuously challenging myself.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="career">
+    <h2>Career Goals</h2>
+
+    <div class="card">
+        <h3>Career Vision</h3>
+
+        <p>
+            My goal is to pursue a career in
+            <strong>Finance</strong>.
+            This profession interests me because it aligns with my values of integrity and hard work,
+            strengths in mathematics and business, and my aim to pursue a high income and intriguing field. 
+        </p>
+    </div>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Short-Term Goals</h3>
+
+            <ul>
+                <li>Complete my degree program</li>
+                <li>Maintain strong academic performance</li>
+                <li>Purchase a Rental Property</li>
+                <li>Build professional skills</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Long-Term Goals</h3>
+
+            <ul>
+                <li>Secure a professional position</li>
+                <li>Advance into leadership roles</li>
+                <li>Continue professional education</li>
+                <li>Build a Strong Future For My Family</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Skills I Am Developing</h3>
+
+            <ul>
+                <li>Communication</li>
+                <li>Leadership</li>
+                <li>Teamwork</li>
+                <li>Critical Thinking</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Future Success Plan</h3>
+
+            <p>
+                I plan to continue gaining experience through
+                coursework, internships, networking opportunities,
+                and professional development activities that will
+                prepare me for success in my chosen career.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <h3>Contact Information</h3>
+    <p>Email: cjhitzel3@icloud.com</p>
+    <p>LinkedIn: www.linkedin.com/in/charles-hitzel</p>
+    <p>© 2026 Charles J Hitzel</p>
+</footer>
+
+</body>
+</html>
